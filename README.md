@@ -143,3 +143,8 @@ curves.<br><br>
 ### 5.1 Outputs generated from the model
 Some sample images from within and outside the dataset have been tested and we have got the
 following results.
+![](/Images/Out1.jpeg )
+![](/Images/Out2.jpeg )
+![](/Images/Out3.jpeg )
+![](/Images/Out4.jpeg )
+![](/Images/Out5.jpeg )
