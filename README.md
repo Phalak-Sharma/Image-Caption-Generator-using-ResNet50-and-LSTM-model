@@ -87,8 +87,8 @@ the number of elements in the same are incremented by 1. Also, we maintain a lis
 that stores the next word at each sub-iteration. Further, one hot encoding is applied on the list that
 contains the next word. Further, both partial sequence and one hot encoded next word are
 converted into arrays.
-<img src ="">
-
+![](/Images/dog.jpeg )
+  
 Then, keeping in mind space and time complexities, only '2000’ images and their captions are
 considered. The formats of this images and captions are replicated and manipulated, which leads
 to generation of new formats of images and captions. Further, different files are created and,
