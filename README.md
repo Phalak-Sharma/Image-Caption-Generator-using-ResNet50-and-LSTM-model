@@ -86,7 +86,7 @@ Then, beginning from the '<start>' prefix, each time we append next word in the 
 the number of elements in the same are incremented by 1. Also, we maintain a list for each caption
 that stores the next word at each sub-iteration. Further, one hot encoding is applied on the list that
 contains the next word. Further, both partial sequence and one hot encoded next word are
-converted into arrays.<br>
+converted into arrays.<br><br>
 ![](/Images/dog.jpeg )
   
 Then, keeping in mind space and time complexities, only '2000’ images and their captions are
