@@ -135,7 +135,10 @@ accuracy of the system has helped us achieve such good results.
 We pictorially represent the value of loss and accuracy at every epoch in the respective two graphs.
 Loss value would decrease, and accuracy value would increase as we move from lower to higher
 number of epochs. Also, more the number of epochs, more would be the smoothness of these
-curves.
+curves.<br><br>
+![](/Images/Res1.jpeg )
+<br><br>
+![](/Images/Res2.jpeg )
 
 ### 5.1 Outputs generated from the model
 Some sample images from within and outside the dataset have been tested and we have got the
