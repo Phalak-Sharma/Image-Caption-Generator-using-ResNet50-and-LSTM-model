@@ -88,7 +88,24 @@ that stores the next word at each sub-iteration. Further, one hot encoding is ap
 contains the next word. Further, both partial sequence and one hot encoded next word are
 converted into arrays.<br><br>
 ![](/Images/dog.jpeg )
-  
+  <br><br>
+  | INPUT SEQUENCE                                                                 | NEXT WORD |
+|--------------------------------------------------------------------------------|-----------|
+| <start&gt;                                                                     | A         |
+| <start&gt;, A                                                                  | black     |
+| <start&gt;, A, black                                                           | dog       |
+| <start&gt;, A, black, dog                                                      | is        |
+| <start&gt;, A, black, dog, is                                                  | running   |
+| <start&gt;, A, black, dog, is, running                                         | after     |
+| <start&gt;, A, black, dog, is, running, after                                  | a         |
+| <start&gt;, A, black, dog, is, running, after, a                               | white     |
+| <start&gt;, A, black, dog, is, running, after, a, white                        | dog       |
+| <start&gt;, A, black, dog, is, running, after, a, white, dog                   | in        |
+| <start&gt;, A, black, dog, is, running, after, a, white, dog, in               | the       |
+| <start&gt;, A, black, dog, is, running, after, a, white, dog, in, the          | snow      |
+| <start&gt;, A, black, dog, is, running, after, a, white, dog, in, the, snow    | .         |
+| <start&gt;, A, black, dog, is, running, after, a, white, dog, in, the, snow, . | <end&gt;  |
+  <br><br>
 Then, keeping in mind space and time complexities, only '2000’ images and their captions are
 considered. The formats of this images and captions are replicated and manipulated, which leads
 to generation of new formats of images and captions. Further, different files are created and,
