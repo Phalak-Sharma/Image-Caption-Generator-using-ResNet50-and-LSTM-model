@@ -108,8 +108,7 @@ converted into arrays.<br><br>
 | <start&gt;, A, black, dog, is, running, after, a, white, dog, in, the, snow    | .         |
 | <start&gt;, A, black, dog, is, running, after, a, white, dog, in, the, snow, . | <end&gt;  |
 
-
-<br>*Table 1. Data Generator*
+*Table 1. Data Generator*
 
 
 
@@ -167,12 +166,16 @@ curves.<br><br>
 ![](/Images/Res2.jpeg )
 <br>*Fig 3. Graph showing Accuracy vs Epochs*
 <br>
+
 ### 5.1 Outputs generated from the model
+
 Some sample images from within and outside the dataset have been tested and we have got the
 following results.<br>
+
 ![](/Images/Out1.jpeg )<br>
 ![](/Images/Out2.jpeg )<br>
 ![](/Images/Out3.jpeg )<br>
 ![](/Images/Out4.jpeg )<br>
 ![](/Images/Out5.jpeg )<br>
+
 *Fig 4. Some examples of generated captions for input images*
