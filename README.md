@@ -89,7 +89,8 @@ contains the next word. Further, both partial sequence and one hot encoded next 
 converted into arrays.<br><br>
 ![](/Images/dog.jpeg )
   <br><br>
-  | INPUT SEQUENCE                                                                 | NEXT WORD |
+  
+| INPUT SEQUENCE                                                                 | NEXT WORD |
 |--------------------------------------------------------------------------------|-----------|
 | <start&gt;                                                                     | A         |
 | <start&gt;, A                                                                  | black     |
@@ -105,7 +106,10 @@ converted into arrays.<br><br>
 | <start&gt;, A, black, dog, is, running, after, a, white, dog, in, the          | snow      |
 | <start&gt;, A, black, dog, is, running, after, a, white, dog, in, the, snow    | .         |
 | <start&gt;, A, black, dog, is, running, after, a, white, dog, in, the, snow, . | <end&gt;  |
-  <br><br>
+
+
+
+
 Then, keeping in mind space and time complexities, only '2000’ images and their captions are
 considered. The formats of this images and captions are replicated and manipulated, which leads
 to generation of new formats of images and captions. Further, different files are created and,
